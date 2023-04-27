@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class star {
+public class half_pyramid_leftsided {
 	public static void main(String[] args) {
 		
         Scanner sc = new Scanner(System.in);
