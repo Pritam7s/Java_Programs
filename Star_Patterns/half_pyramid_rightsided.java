@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class half_pyramid_rightside {
+public class half_pyramid_rightsided {
 	public static void main(String[] args) {
 		
         Scanner sc = new Scanner(System.in);
@@ -10,10 +10,10 @@ public class half_pyramid_rightside {
         
         for(int i=1; i<=rows; i++) {	// this will iterate until the number of total rows
       
-            for (int j=rows; j>i; j--) {	// Print space in decreasing order
+            for (int j=rows; j>i; j--) {	// this will print space in decreasing order
                 System.out.print(" ");
             }
-            for (int k=1; k<=i; k++) { 	// Print star in increasing order
+            for (int k=1; k<=i; k++) { 		// this will print star in increasing order
                 System.out.print("*");
             }
             System.out.println();		//this will move the cursor to the next row and the star will print there
