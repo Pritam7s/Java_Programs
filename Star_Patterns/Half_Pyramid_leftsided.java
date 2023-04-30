@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class half_pyramid_leftsided {
+public class Half_Pyramid_leftsided {
 	public static void main(String[] args) {
 		
         Scanner sc = new Scanner(System.in);
@@ -14,6 +14,5 @@ public class half_pyramid_leftsided {
             }
             System.out.println();		    //this will move the cursor to the next row and the star will print there
         }
-        sc.close();
 	}
 }
