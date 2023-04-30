@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class RightSided_Half_Pyramid_Inverse {
+public class Left_Sided_Half_Pyramid_Inverse {
 	public static void main(String[] args) {
 		
          Scanner sc = new Scanner(System.in);
@@ -11,7 +11,7 @@ public class RightSided_Half_Pyramid_Inverse {
             for (int j=rows; j>=i; j--) {	// for printing star in decreasing order
                 System.out.print("*");
             }
-            System.out.println();		//this will move the cursor to the next row and the star will print there
+            System.out.println();		//this will move the cursor to the nextline and the star will print there
         }
 	}
 }
