@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class RightSidedHalfPyramidInverse {
+public class RightSided_Half_Pyramid_Inverse {
 	public static void main(String[] args) {
 		
          Scanner sc = new Scanner(System.in);
